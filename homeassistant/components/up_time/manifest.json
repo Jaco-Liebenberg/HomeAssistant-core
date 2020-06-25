@@ -1,0 +1,8 @@
+{
+    "domain": "up_time",
+    "name": "Uptime Sensor",
+    "documentation": "some_url",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": []
+  }
