@@ -21,6 +21,8 @@ RUN apt-get install libavutil-dev
 RUN apt-get install libswscale-dev 
 RUN printf 'Y\n' | apt-get install libavresample-dev 
 RUN apt-get install libavfilter-dev
+RUN apt-get install nano
 WORKDIR /usr/src
 COPY ./ ./
 RUN python3 setup.py install
+pip install -r requirements_all.txt
