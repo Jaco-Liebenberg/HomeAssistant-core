@@ -25,4 +25,4 @@ RUN apt-get install nano
 WORKDIR /usr/src
 COPY ./ ./
 RUN python3 setup.py install
-pip install -r requirements_all.txt
+RUN pip install -r requirements_all.txt
