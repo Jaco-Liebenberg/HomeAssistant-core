@@ -22,6 +22,7 @@ RUN apt-get install libswscale-dev
 RUN printf 'Y\n' | apt-get install libavresample-dev 
 RUN apt-get install libavfilter-dev
 RUN apt-get install nano
+RUN apt-get install -y libglib2.0-dev # Reqired for instalation of reqirements_all.txt to succeed
 WORKDIR /usr/src
 COPY ./ ./
 RUN python3 setup.py install
