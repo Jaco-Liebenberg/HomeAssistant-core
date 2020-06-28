@@ -1,0 +1,8 @@
+{
+    "domain": "sonoff",
+    "name": "Sonoff Sensor",
+    "documentation": "some_url",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": []
+  }
